@@ -44,7 +44,6 @@ require_once($path.'header.php');
 		</form>
 
 	</div>
-    <!--navbar fixé en bas avec les logos-->
 
 </body>
 </html>
