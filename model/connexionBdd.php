@@ -17,11 +17,11 @@
 $o_pdo = get_connexion();
 
 function get_connexion() {
-  $dbName = 'rpi';
-  $dbPort = '3306';
-  $dbHost = 'localhost';
-  $dbUser = 'admin';
-  $dbPass = 'admin';
+  $dbName = '';
+  $dbPort = '';
+  $dbHost = '';
+  $dbUser = '';
+  $dbPass = '';
 
   $dsn = "mysql:dbname=" . $dbName . ";port=" . $dbPort . ";host=" . $dbHost;
   $a_attribute = array(PDO::ATTR_PERSISTENT => false, PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8");
