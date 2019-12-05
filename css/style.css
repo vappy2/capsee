@@ -1,0 +1,48 @@
+/*****************/
+/*La Typographie*/
+/***************/
+
+/*************/
+/*Background*/
+/************/
+
+body{
+    background : rgba(156,90,211,0.2);
+}
+
+/*********/
+/*Navbar*/
+/********/
+nav{
+    height: 50px;
+}
+
+/************/
+/*Section 1*/
+/***********/
+
+section{
+    padding-bottom: 20px;
+}
+#planeteBack{
+    width: 500px;
+    display : block;
+    margin: auto;
+    padding-top : 20px;
+    padding-bottom: 70px;
+}
+
+p.text-center{
+    display: block;
+    position: relative;
+    color: #000000;
+    font-size: 18px;
+}
+
+#readyButton{
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #28E0AE;
+}
+
