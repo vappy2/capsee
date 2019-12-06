@@ -4,7 +4,7 @@
 /************/
 
 body{
-    background : rgba(156,90,211,0.2);
+    background : url('../img/Planet/BG_capsee3.png');
     font-family: 'Muli', 'Verdana','sans-serif';
     font-size: 14px;
 }
@@ -13,7 +13,7 @@ body{
 /*Navbar*/
 /********/
 nav{
-    height: 50px;
+    position: relative;
 }
 .navbar-nav li img{
     width: 50px;
@@ -23,49 +23,69 @@ nav{
 /*Section 1*/
 /***********/
 
-section{
-    padding-bottom: 20px;
+.container{
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+}
+#planeteDiv{
+    position: relative;
+    background: url('../img/Planet/Earth_final.png') top right no-repeat;
+    height: 685px;
 }
 #planeteBack{
     width: 400px;
     display : block;
     margin: auto;
     padding-top : 20px;
-    padding-bottom: 70px;
 }
-
-p.text-center{
-    display: block;
+#msgIntention{
     position: relative;
-    color: #000000;
-    font-size: 18px;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+#msgIntention p{
+    padding-top: 120px;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 50px;
+}
+#msgIntention h1{
+    color: #fff;
+    margin-left: 50px;
 }
 
 #readyButton{
-    display: block;
-    margin: auto;
-    text-align: center;
-    background-color: #28E0AE;
-}
-
-#readyButton{
-    width: 134px;
-    display: block;
-    margin: auto;
-    text-align: center;
+    width: 150px;
+    display: inline-block;
+    margin-left: 50px;
     background-color: #28E0AE;
     border-block-color: #28E0AE;
     font-size: 18px;
     color: #fff;
 }
+#envoiButton{
+    width: 150px;
+    display: none;
+    text-align: center;
+    background-color: #28E0AE;
+    border-block-color: #28E0AE;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 50px;
+}
+#envoiButton a{
+    text-decoration: none;
+    color: #fff;
+}
 
 #recevoirButton{
-    width: 134px;
+    width: 150px;
     display: none;
-    margin: auto;
     text-align: center;
     background-color: #FD4291;
     border-block-color: #FD4291;
     font-size: 18px;
-
+    margin-left: 50px;
 }

@@ -1,6 +1,7 @@
 $(function(){
     $("#readyButton").click(function(){
-        $("#readyButton").html('Loading ... :)');
+        $("#readyButton").css('display','none');
+        $("#envoiButton").css('display','block');
         $("#recevoirButton").css('display','block');
     });
 });
