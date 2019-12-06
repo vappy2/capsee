@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Header à supprimer-->
-<head>
+  <!--Header à supprimer-->
+  <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,14 +12,49 @@
     <link rel="apple-touch-icon" sizes="60x60 76x76 120x120 152x152" type="image/png" href="img/favicon_color_bgWhite@3x.png" />
   
     <script type="text/javascript" src="ext//jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/readyButton.js"></script>
+    <script type="text/javascript" src="js/creationCapsule.js"></script>
     <script type="text/javascript" src="ext//jquery.min.js"></script>
     <script type="text/javascript" src="ext/moment.min.js"></script>
     <script type="text/javascript" src="ext/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="ext/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="css/capsule.css">  
 
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
   </head>
+  <body>      
+        
+    <header>
+      <nav class="navbar">
+          <a class="navbar-brand" href="index.html"><img src="img/capsee_b_header.png"></a>
+          <ul class="navbar-nav">
+              <li><a href="#"><img src="img/pictos/user_b_02@2x.png"></a></li>
+          </ul>            
+      </nav>
+    </header>
+    <section class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <h1 class="text-center">Capsule n° 1</h1>
+          <p>Créez votre capsule temporelle en sélectionnant les oeuvres que vous souhaitez partager.</p>
+          <form id="art" action="" method="POST">
+            <div class="form-group">
+              <ul id="artAjoute">
+                <li><a href="#"><img src="img/pictos/icn_search@2x.png" alt=""></a></li>
+                <li><a href="#"><img src="img/pictos/icn_add@2x.png" alt=""></a></li>
+                <li><a href="#"><img src="img/pictos/icn_add@2x.png" alt=""></a></li>
+                <li><a href="#"><img src="img/pictos/icn_add@2x.png" alt=""></a></li>
+                <li><a href="#"><img src="img/pictos/icn_add@2x.png" alt=""></a></li>
+              </ul>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="" placeholder="Ajouter un commentaire"></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</htmm>
   

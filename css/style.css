@@ -8,12 +8,18 @@ body{
     font-family: 'Muli', 'Verdana','sans-serif';
     font-size: 14px;
 }
+.container{
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+}
 
 /*********/
 /*Navbar*/
 /********/
 nav{
     position: relative;
+    height: 120px;
 }
 .navbar-nav li img{
     width: 50px;
@@ -23,11 +29,7 @@ nav{
 /*Section 1*/
 /***********/
 
-.container{
-    margin-left: 0;
-    padding-left: 0;
-    border-left: 0;
-}
+
 #planeteDiv{
     position: relative;
     background: url('../img/Planet/Earth_final.png') top right no-repeat;
