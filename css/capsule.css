@@ -36,7 +36,6 @@ div.col-sm-8{
     border-radius: 5px;
     margin: 0 auto;
     padding : 20px;
-    z-index: -2;
     
 }
 
@@ -48,27 +47,10 @@ div.col-sm-8 h1{
 /*Elements HTML*/
 /**************/
 h1.text-center{
-    z-index: 1000;
     text-decoration: underline;
     text-decoration-color: #28E0AE;
     padding: 20px;
 }
-/*.souligne{
-    position: relative;
-    display: block;
-
-}
-
-.souligne:before{
-    content:'';
-    display: inline-block;
-    background-color: #28E0AE;
-    position: absolute;
-    height:10px;
-    width: 42%;
-    bottom: 0;
-
-}*/
 
 p{
     padding: 20px;
@@ -76,7 +58,7 @@ p{
 
 #artAjoute img{
     width: 50px;
-    margin: 40px;
+    margin: 10px;
     border-radius : 3px;
 }
 
@@ -92,10 +74,19 @@ li{
     background-color: rgba(40,38,38,0.2);
     border-radius : 5px;
     margin : 10px;
+    width: 25%;
 }
 
-li:hover{
+/*li:hover{
     border: 1px solid rgba(40,38,38,0.4);
+}*/
+ul li a{
+    color: #000 ;    
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color: #000;
 }
 
 .btn{
