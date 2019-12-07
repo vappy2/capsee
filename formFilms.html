@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon" sizes="60x60 76x76 120x120 152x152" type="image/png" href="img/favicon_color_bgWhite@3x.png" />
   
     <script type="text/javascript" src="ext//jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/creationCapsule.js"></script>
+    <script type="text/javascript" src="js/resultFilms.js"></script>
     <script type="text/javascript" src="ext//jquery.min.js"></script>
     <script type="text/javascript" src="ext/moment.min.js"></script>
     <script type="text/javascript" src="ext/bootstrap/js/bootstrap.min.js"></script>
@@ -35,26 +35,31 @@
     </header>
     <section class="container">
         <div class="row">
-            <div class="col-sm-8">
-                <h1 class="text-center">Capsule n°1</h1>
+            <div class="col-sm-6">
+                <h1 class="text-center souligne">Capsule n°1</h1>
                 <p class="text-center">Sélectionnez les oeuvres que vous souhaitez partager</p>
 
-                <form class="form-inline" action="" method="POST">
-                    <div class="form-group mb-2">
-                        <select class="form-control" name="categories" id="categorie">
-                            <option value="">Choisissez une catégorie</option>
-                            <option value="film">Films</option>
-                            <option value="serie">Séries</option>
-                        </select>
-                    </div>
-
+                <!--<form class="form-inline center-block" action="" method="POST">-->
+                <div class="form-inline">
                     <div class="form-group">
                         <input class="form-control" type="text" id="searchFilm" placeholder="Search">
                     </div>
-
                     <div class="form-group">
-                        <button class="btn btn-md" type="submit" id="submitFilms" disabled>Valider</button>
+                        <button class="btn btn-md" id="searchFilmButton"><img src="img/pictos/icn_search@2x.png"></button>
                     </div>
+                </div>
+                <!--</form>-->
+                <form id="resultatFilms" class=" col-sm-4 center-block" action="" method="POST">
+                    <input type="radio" name="film" id="film1">
+                    <label for="film1"><img src="img/pictos/popcorn_02@2x.png"> Titre, Auteur</label>
+
+                    <input type="radio" name="film" id="film2">
+                    <label for="film2"><img src="img/pictos/popcorn_02@2x.png">Titre, Auteur</label>
+
+                    <input type="radio" name="film" id="film3">
+                    <label for="film3"><img src="img/pictos/popcorn_02@2x.png">Titre, Auteur</label>
+
+                    <button class="btn btn-md" type="submit" id="submitFilms">Valider</button>
                 </form>
             </div>
         </div>
