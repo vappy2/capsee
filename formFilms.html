@@ -34,28 +34,28 @@
       </nav>
     </header>
     <section class="container">
-      <div class="row">
-        <div class="col-sm-8">
-          <h1 class="text-center">Capsule n° 1</h1>
+        <div class="row">
+            <div class="col-sm-8">
+                <h1 class="text-center">Capsule n°1</h1>
+                <p class="text-center">Sélectionnez les oeuvres que vous souhaitez partager</p>
 
-          <p>Choisissez la catégorie artistique que vous souhaitez partager.</p>
-          
-          <form id="art" action="" method="POST">
-            <div class="form-group">
-              <ul id="artAjoute">
-                <li><a href="formMusic.html"><img src="img/pictos/musique_02@2x.png" alt="" style="margin: 37px 40px"></a></li>
-                <li><a href="formFilms.html"><img src="img/pictos/popcorn_02@2x.png" alt=""></a></li>
-                <li><a href="formLivres.html"><img src="img/pictos/livres_02@2x.png" alt="" style="margin: 60px 40px;"></a></li>
-                <li><a href="formTableaux.html"><img src="img/pictos/tableau_02@2x.png" alt="" style="margin: 35px 40px;"></a></li>
-              </ul>
+                <form class="form-inline" action="" method="POST">
+                    <div class="form-group mb-2">
+                        <select class="form-control" name="categories" id="categorie">
+                            <option value="">Choisissez une catégorie</option>
+                            <option value="film">Films</option>
+                            <option value="serie">Séries</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="text" id="searchFilm" placeholder="Search">
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-md" type="submit" id="submitFilms" disabled>Valider</button>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-              <textarea class="form-control" placeholder="Ajouter un commentaire"></textarea>
-            </div>
-          </form>
         </div>
-      </div>
     </section>
-  </body>
-</htmm>
-  
