@@ -16,7 +16,10 @@ nav{
     position: relative;
 }
 .navbar-nav li img{
-    width: 50px;
+    width: 60px;
+}
+.navbar-brand a img{
+    width: 120px;
 }
 
 /**************/
@@ -25,7 +28,6 @@ nav{
 
 div.col-sm-8{
     background-color: #fff;
-    background
     border-radius: 5px;
     margin: 0 auto;
     padding : 20px;
@@ -34,6 +36,7 @@ div.col-sm-8{
 div.col-sm-8 h1{
     text-decoration: underline;
     text-decoration-color: #28E0AE;
+    background : url('../img/MOTIFS/Confettis_01.svg') top left no-repeat;
 }
 
 /****************/

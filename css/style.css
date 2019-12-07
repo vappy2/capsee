@@ -8,27 +8,28 @@ body{
     font-family: 'Muli', 'Verdana','sans-serif';
     font-size: 14px;
 }
-.container{
-    margin-left: 0;
-    padding-left: 0;
-    border-left: 0;
-}
+
 
 /*********/
 /*Navbar*/
 /********/
 nav{
     position: relative;
-    height: 120px;
+    height: 120px;;
 }
 .navbar-nav li img{
-    width: 50px;
+    width: 60px;
 }
 
 /************/
 /*Section 1*/
 /***********/
 
+div.container{
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+}
 
 #planeteDiv{
     position: relative;
@@ -48,12 +49,13 @@ nav{
 }
 
 #msgIntention p{
-    padding-top: 120px;
+    padding-top: 20px;
     color: #fff;
     font-size: 24px;
     margin-left: 50px;
 }
 #msgIntention h1{
+    padding-top: 120px;
     color: #fff;
     margin-left: 50px;
 }
