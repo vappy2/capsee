@@ -93,3 +93,28 @@ div.container{
     font-size: 18px;
     margin-left: 50px;
 }
+/**************/
+/*Formulaire */
+/************/
+
+.col-sm-3{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+form p{
+    padding-bottom: 20px;;
+}
+
+#inscrireButton{
+    display: block;
+    margin: auto;
+    background-color: #28E0AE;
+    margin-bottom: 10px;
+}
+
+.col-sm-3 img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}

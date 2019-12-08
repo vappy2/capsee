@@ -16,10 +16,13 @@
     <script type="text/javascript" src="js/readyButton.js"></script>
     <script type="text/javascript" src="ext//jquery.min.js"></script>
     <script type="text/javascript" src="ext/moment.min.js"></script>
-    <script type="text/javascript" src="ext/bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="ext/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/home.css">  
-
+    <link rel="stylesheet" href="css/home.css"> 
+     
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
   </head>
@@ -49,23 +52,27 @@
                 </div>
             </section>
         </div>
-        <!--
-        <section class="col-sm-6">
+        <section class="col-sm-3">
             <form class="block-center container-fluid" role="form" id="inscription" action="" method="PoST">
                 <p class="text-center"><strong>Pour envoyer et décrouvrir de nouvelles capsules, inscrivez-vous !</strong></p>
                 <div class="form-group">
-                    <input name="pseudo" type="text" id="pseudoInscription" placeholder="Pseudo"/>
+                    <input class="form-control" name="pseudo" type="text" id="pseudoInscription" placeholder="Pseudo"/>
                 </div>
 
                 <div class="form-group">
-                    <input type="mail" name="mail" id="mailInscription" placeholder="Email">
+                    <input class="form-control" type="mail" name="mail" id="mailInscription" placeholder="Email">
                 </div>
 
                 <div class="form-group">
-                    <input type="mail" name="mail" id="mailInscription" placeholder="Email">
+                    <input class="form-control" type="password" name="password" id="passwordInscription" placeholder="Mot de Passe">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-md center-block" type="submit" name="M'inscrire" id="inscrireButton">M'inscrire</button>
                 </div>
             </form>
-        </section>-->
+            <img src="img/Line.png">
+            <a href="#">J'ai déjà un compte</a>
+        </section>
        </div>
     </body>
 </html>
