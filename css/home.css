@@ -79,7 +79,8 @@ div.container{
     color: #fff;
     margin-left: 50px;
 }
-#envoiButton a{
+#envoiButton a,
+#recevoirButton a{
     text-decoration: none;
     color: #fff;
 }

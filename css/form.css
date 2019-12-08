@@ -41,13 +41,13 @@ form input{
     margin-bottom: 20;
     width: 60%;
 }
-#inscrireButton{
+#inscrireButton,
+#connexionButton{
     display: block;
     margin: auto;
     background-color: #28E0AE;
     margin-bottom: 10px;
 }
-
 
 .pef a{
     display: block;
