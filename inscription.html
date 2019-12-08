@@ -14,7 +14,7 @@
     
     <script type="text/javascript" src="ext/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/readyButton.js"></script>
-    <link rel="stylesheet" href="css/home.css"> 
+    <link rel="stylesheet" href="css/form.css"> 
      
     <!--Bootstrap 4-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -25,7 +25,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
   </head>
 
-  <body>      
+  <body>    
         
         <header>
             <nav class="container navbar">
@@ -34,22 +34,27 @@
                     <li><a href="#"><img src="img/pictos/user_b_02@2x.png"></a></li>
                 </ul>            
             </nav>
-        </header>
-        <div class="container">
-            <section class="row">
-                <div id="planeteDiv" class="col-sm-6">
-                    <!--<img src="img/Planet/Earth_final.png" id="planeteBack">-->
-                </div>
-                <div id="msgIntention" class="col-sm-6">
-                    <h1>Capsee</h1>
-                    <p>Découvrez de nouveaux patrimoines artistiques avec <strong>Capsee</strong>, le générateur de capsules culturelles</p>
-                    <button id="readyButton" type="button" class="btn btn-lg center-block">C'est parti !</button>
-                    <button id="envoiButton" type="button" class="btn btn-lg center-block"><a href="creationCapsule.html">Envoyer</a></button>
-                    </br>
-                    <button id="recevoirButton" type="button" class="btn btn-lg btn-danger center-block">Recevoir</button>
-                </div>
-            </section>
-        </div>
-       </div>
-    </body>
-</html>
+        </header>   
+        <section class="container pef col-sm-4">
+            <div class="row">
+                <form class="block-center container-fluid col-sm-11" role="form" id="inscription" action="" method="PoST">
+                    <p class="text-center"><strong>Pour découvrir de nouvelles capsules,</br> incrivez-vous !</strong></p>
+                    <div class="form-group">
+                        <input class="form-control" name="pseudo" type="text" id="pseudoInscription" placeholder="Pseudo"/>
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="mail" name="mail" id="mailInscription" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="password" name="password" id="passwordInscription" placeholder="Mot de Passe">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-md center-block" type="submit" name="M'inscrire" id="inscrireButton">M'inscrire</button>
+                    </div>
+                </form>
+
+                <a href="inscription.html">Vous possédez déjà un compte ? Conectez-vous par ici</a>
+            <div>
+        </section>
