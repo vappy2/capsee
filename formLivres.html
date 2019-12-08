@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <!--Header à supprimer-->
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Création de capsule - Capsee</title>
+  
+    
+    <link rel="shortcut icon" type="image/x-icon" type="image/ico" href="img/favicon_color_bgWhite@3x.png" />
+    <link rel="apple-touch-icon" sizes="60x60 76x76 120x120 152x152" type="image/png" href="img/favicon_color_bgWhite@3x.png" />
+  
+    <script type="text/javascript" src="ext//jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/resultFilms.js"></script>
+    <script type="text/javascript" src="ext//jquery.min.js"></script>
+    <script type="text/javascript" src="ext/moment.min.js"></script>
+    <script type="text/javascript" src="ext/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="ext/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/capsule.css">  
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
+  </head>
+  <body>      
+        
+    <header>
+      <nav class=" container navbar">
+          <a href="index.html"><img src="img/Full Blanc/capsee_FBlanc_02.png" style="width: 120px;"></a>
+          <ul class="navbar-nav">
+              <li><a href="#"><img src="img/pictos/user_b_02@2x.png"></a></li>
+          </ul>            
+      </nav>
+    </header>
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1 class="text-center">Capsule n°1</h1>
+                <p class="text-center">Sélectionnez les oeuvres que vous souhaitez partager</p>
+
+                <form id="livresForm" class="center-block" action="" method="POST">
+                    <div class="form-group">
+                        <label class="text-center" for="titreLivre">Titre du livre</label>
+                        <input class="form-control" type="text" name="titreLivre" id="titreLivre">
+                    </div>
+                    <div class="form-group">
+                        <label for="auteurLivre">Auteur du livre</label>
+                        <input class="form-control" type="text" name="auteurLivre" id="auteurLivre">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-md" type="submit" id="submitLivre">Valider</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>

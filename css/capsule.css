@@ -101,9 +101,9 @@ textarea{
     padding-bottom: 20px
 }
 
-/************/
-/*Form Film*/
-/**********/
+/*******/
+/*Form*/
+/******/
 div.col-sm-6 h1{
     background: url('../img/MOTIFS/Confettis_01.svg') top left no-repeat;
 }
@@ -115,10 +115,13 @@ div.col-sm-6{
     
 }
 
+/************/
+/*Form Film*/
+/**********/
 #searchFilm{
     margin-bottom: 8px;
     margin-left: 8px;
-    width: 400px;
+    width: 100%;
 }
 
 #searchFilmButton img{
@@ -154,4 +157,76 @@ input[type=radio]:checked ~ #submitFilms{
 
 #resultatFilms{
     display: none;
+}
+
+/*************/
+/*Form Music*/
+/***********/
+
+#searchMusique{
+    margin-bottom: 8px;
+    margin-left: 8px;
+    width: 60%;
+}
+
+#searchMusicButton img{
+    width: 25px;
+    padding-bottom: 8px;
+}
+
+#submitMusic{
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(40,224,174,0.2);
+
+}
+
+#resultatMusic{
+    display: none;
+}
+label img{
+    width:50px;
+}
+
+input[type=radio]:checked + label{
+    border : 2px solid #28E0AE;
+    border-radius: 5px;
+}
+
+input[type=radio]:checked ~ #submitMusic{
+    background-color: #28E0AE;
+    color: #fff;
+}
+
+input[type=radio]{
+    display:none;
+}
+
+/*************/
+/*Form Livre*/
+/***********/
+
+#auteurLivre,
+#titreLivre{
+    width: 100%;;
+}
+
+#submitLivre{
+    background-color: #28E0AE;
+    color: #fff;
+}
+
+/***************/
+/*Form Tableau*/
+/*************/
+
+#auteurTableau,
+#titreTableau{
+    width: 100%;;
+}
+
+#submitTableau{
+    background-color: #28E0AE;
+    color: #fff;
 }
