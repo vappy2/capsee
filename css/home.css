@@ -34,7 +34,7 @@ div.container{
 #planeteDiv{
     position: relative;
     background: url('../img/Planet/Earth_final.png') top right no-repeat;
-    height: 685px;
+    height: 800px;
 }
 #planeteBack{
     width: 400px;
@@ -117,4 +117,18 @@ form p{
     display: block;
     margin: auto;
     width: 50%;
+    margin-bottom: 10px;;
+}
+
+.col-sm-3 a{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color:#282626;
+    font-size: 14px;
+}
+
+.col-sm-3 a:hover{
+    color: #282626;
+    text-decoration-color: #282626;
 }
