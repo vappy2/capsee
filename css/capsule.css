@@ -65,7 +65,10 @@ p{
 
 ul{
     padding: 20px;
-    margin: 10px;
+}
+
+ul li:first-child{
+    margin-left:20px;
 }
 
 #artAjoute li,
@@ -244,7 +247,8 @@ input[type=radio]{
     margin-top : 30px;
     margin-bottom: 20px;
 }
-#submitOuvrirCaps{
+#submitOuvrirCaps,
+#fermerCaps{
     color: #fff;
     background-color: #28E0AE;
     text-align: center;
@@ -265,11 +269,38 @@ input[type=radio]{
 /***************/
 /*contenu Caps*/
 /*************/
+#artsCapsule{
+    margin-bottom: 0;
+}
+
+#decouverte{
+    padding-top: 0;
+    display:block;
+    margin: auto;
+}
+
+#decouverte li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+#decouverte li label img{
+    background-color: rgba(40,38,38,0.2);
+    border-radius: 40px;
+    width: 50px;
+
+}
+
+#decouverte label p{
+    font-size: 9px;
+}
 
 #comm{
     text-align: center;
     background-color: rgba(40,38,38,0.2);
     border-radius : 5px;
+    margin-bottom: 10px;
 }
 
 #comm img{
@@ -289,11 +320,10 @@ input[type=radio]{
 #intituleCom{
     margin-top: 16px;
 }
-#decouverte{
-    display: inline-block;
-    list-style: none;
+
+.espace{
+    margin-right: 20px;
 }
-#decouverte li label img{
-    background-color: rgba(40,38,38,1);
-    border-radius: 50px;;
+#fermerCaps{
+    margin-top: 20px;
 }
