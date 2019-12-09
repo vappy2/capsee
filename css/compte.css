@@ -1,0 +1,83 @@
+
+/*************/
+/*Background*/
+/************/
+
+body{
+
+    font-family: 'Muli', 'Verdana','sans-serif';
+    font-size: 14px;
+    margin: 20px;
+}
+
+#logoNav{
+    margin: 30px;
+}
+
+.col-sm-7{
+    background : url('../img/Planet/BG_capsee3.png');
+    padding-left: 0;
+    height: 100%;
+}
+
+
+#leftPlanete{
+    position: relative;
+    background: url('../img/Planet/Earth_final.png') top right no-repeat;
+    height: 800px;
+}
+
+#compteDiv{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 60px;
+    float: right;
+    padding-bottom:0;
+}
+
+#iconeCaps{
+    display: inline-block;
+}
+#userIcon{
+    padding-top: 15px;
+    width: 25px;
+}
+
+#iconeCaps p{
+    color: #28E0AE;
+    margin-bottom: 30px;
+}
+
+div{
+    padding-bottom: 30px;
+}
+
+#codeCaps{
+    margin: 10px;
+    width: 20%;
+}
+
+#codeSubmit{
+    background-color: #28E0AE;
+}
+
+#receptionCaps,
+#envoyerCaps{
+    text-align: center;
+    background-color:rgba(40,38,38,0.2);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#parametres{
+    padding-bottom:0;
+}
+
+#parametres a{
+    color: #000;
+}
+
+#parametres a:hover{
+    color: #28E0AE;
+    text-decoration-color: #28E0AE;
+}

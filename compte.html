@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<!--Header à supprimer-->
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Home - Capsee</title>
+  
+    
+    <link rel="shortcut icon" type="image/x-icon" type="image/ico" href="img/favicon_color_bgWhite@3x.png" />
+    <link rel="apple-touch-icon" sizes="60x60 76x76 120x120 152x152" type="image/png" href="img/favicon_color_bgWhite@3x.png" />
+    
+    <script type="text/javascript" src="ext/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/readyButton.js"></script>
+    <link rel="stylesheet" href="css/compte.css"> 
+     
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
+  </head>
+
+ 
+
+    <body>      
+    
+        <header>
+
+        </header>
+            <section class="row">
+                <div class="col-sm-7">
+                    <div id="leftSide">
+                        <aclass="navbar-brand" href="index.html"><img  id="logoNav" src="img/Full Blanc/capsee_FBlanc_02.png" style="width: 120px;"></a>          
+                    </div>
+                    <div id="leftPlanete">
+                        <!--<img src="img/Planet/Earth_final.png" id="planeteBack">-->
+                    </div>
+                </div>
+                <div id="compteDiv" class="col-sm-4">
+
+                    <div id="iconeCaps">
+                        <img id="userIcon" src="img/pictos/user_02@2x.png">
+                        <p>Bonjour, User</p>
+                    </div>
+                    <div id="etatCaps">
+                            <p id="receptionCaps">Vous pouvez encore ouvrir <strong>1 capsule(s) aujourd'hui</strong></p>
+                            <p id="envoyerCaps">Vous avez envoyé <strong>1 capsule</strong> cette semaine. </br> Revenez dans 4 jours pour en envoyer une nouvelle.</p>
+                        </div>
+
+                    <div id="ajoutCaps">
+                        <form class="form-inline" id="ajourCapsForm" action="" method="POST">
+                            <label for="codeCaps"><strong>Ajouter ma capsule </strong></label>
+                            <input id="codeCaps" name="codeCaps" class="form-control form-controle-sm" type="int" size="4" />
+                            <button class="btn btn-md" type="submit" name="codeSubmit" id="codeSubmit">OK !</button>
+                        </form>
+                    </div>
+                    <div id="capsEnvoyé">
+                        <p><strong>Mes capsules envoyées.</strong></p>
+                        <p>Notifications de commentaire et de réactions</p>
+                    </div>
+                    <div id="capsRecue">
+                        <p><strong>Mes Capsules reçues</strong></p>
+                        <p>Liste des capsules reçue</p>
+                    </div>
+                    <div id="parametres">
+                        <p><strong>Paramètres</strong></p>
+                        <a href="">Politique de confidentialité</p>
+                        <a href="">Déconnexion</a>
+                    </div>
+                </div>
+            </section>
+    </body>
+
+  
