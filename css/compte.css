@@ -39,13 +39,18 @@ body{
     display: inline-block;
 }
 #userIcon{
-    padding-top: 15px;
+    float: left;
     width: 25px;
+}
+
+#croixButton{
+    float: right;
+    width: 15px;
 }
 
 #iconeCaps p{
     color: #28E0AE;
-    margin-bottom: 30px;
+    margin: 30px;
 }
 
 div{
@@ -65,8 +70,17 @@ div{
 #envoyerCaps{
     text-align: center;
     background-color:rgba(40,38,38,0.2);
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 5px;
+    margin: 10px;
+    width: 100%;
+}
+#receptionCaps a,
+#receptionCaps a:hover,
+#envoyerCaps a,
+#envoyerCaps a:hover{
+    color: #000;
+    text-decoration: none;
 }
 
 #parametres{
