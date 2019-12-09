@@ -56,7 +56,8 @@ p{
     padding: 10px;
 }
 
-#artAjoute img{
+#artAjoute img,
+#artsCapsule img{
     width: 50px;
     margin: 10px;
     border-radius : 3px;
@@ -67,14 +68,15 @@ ul{
     margin: 10px;
 }
 
-li{
+#artAjoute li,
+#artsCapsule li{
     display: inline-block;
     list-style: none;
     text-align: center;
     background-color: rgba(40,38,38,0.2);
     border-radius : 5px;
     margin : 10px;
-    width: 25%;
+    width: 20%;
 }
 
 /*li:hover{
@@ -258,4 +260,40 @@ input[type=radio]{
 
 .centrer{
     margin-top: 190px;
+}
+
+/***************/
+/*contenu Caps*/
+/*************/
+
+#comm{
+    text-align: center;
+    background-color: rgba(40,38,38,0.2);
+    border-radius : 5px;
+}
+
+#comm img{
+    float: left;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.createurCom{
+    float:left;
+    color: #9C5AD3;    
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+#intituleCom{
+    margin-top: 16px;
+}
+#decouverte{
+    display: inline-block;
+    list-style: none;
+}
+#decouverte li label img{
+    background-color: rgba(40,38,38,1);
+    border-radius: 50px;;
 }
