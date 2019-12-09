@@ -230,3 +230,32 @@ input[type=radio]{
     background-color: #28E0AE;
     color: #fff;
 }
+
+/************/
+/*Ouverture*/
+/**********/
+.col-sm-8{
+    display: block;
+    margin: auto;
+}
+#titreFelicitation{
+    margin-top : 30px;
+    margin-bottom: 20px;
+}
+#submitOuvrirCaps{
+    color: #fff;
+    background-color: #28E0AE;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#submitOuvrirCaps a,
+#submitOuvrirCaps a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+.centrer{
+    margin-top: 190px;
+}
