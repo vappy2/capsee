@@ -65,6 +65,8 @@ p{
 
 ul{
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul li:first-child{
@@ -73,7 +75,8 @@ ul li:first-child{
 
 #artAjoute li,
 #artsCapsule li{
-    display: inline-block;
+    /*display: inline-block;*/
+ 
     list-style: none;
     text-align: center;
     background-color: rgba(40,38,38,0.2);
@@ -322,8 +325,11 @@ input[type=radio]{
 }
 
 .espace{
-    margin-right: 20px;
+    margin-right: 32px;
 }
 #fermerCaps{
     margin-top: 20px;
+}
+#plusButton{
+    float: right;
 }
