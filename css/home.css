@@ -6,7 +6,13 @@
 body{
     background : url('../img/Planet/BG_capsee3.png');
     font-family: 'Muli', 'Verdana','sans-serif';
-    font-size: 14px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+button{
+    width: 288px;
+    text-align: center;
 }
 
 
@@ -48,49 +54,59 @@ div.container{
     padding-top: 50px;
 }
 
-#msgIntention p{
-    padding-top: 20px;
-    color: #fff;
-    font-size: 24px;
-    margin-left: 50px;
-}
 #msgIntention h1{
     padding-top: 120px;
     color: #fff;
     margin-left: 50px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+#msgIntention h2{
+    font-family: 'Muli', sans-serif;
+    font-size: 28px;
+    color: #fff;
+    line-height: 25px;
+    font-weight: normal;
+
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;;
 }
 
 #readyButton{
-    width: 150px;
     display: inline-block;
     margin-left: 50px;
     background-color: #28E0AE;
-    border-block-color: #28E0AE;
-    font-size: 18px;
     color: #fff;
+    border-radius: 3px;
+
+    /*font*/
+    color: #fff;
+    font-size: 25px;
+    font-size: 25px;
+    font-weight: bolder;
 }
+
 #envoiButton{
-    width: 150px;
     display: none;
-    text-align: center;
-    background-color: #28E0AE;
-    border-block-color: #28E0AE;
-    font-size: 18px;
-    color: #fff;
     margin-left: 50px;
+    background-color: #28E0AE;
+    border-radius: 3px;
 }
+
+#recevoirButton{
+    display: none;
+    margin-left: 50px;
+    background-color: #FD4291;
+    border-radius: 3px;
+}
+
 #envoiButton a,
 #recevoirButton a{
     text-decoration: none;
     color: #fff;
-}
-
-#recevoirButton{
-    width: 150px;
-    display: none;
-    text-align: center;
-    background-color: #FD4291;
-    border-block-color: #FD4291;
-    font-size: 18px;
-    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bolder;
 }
