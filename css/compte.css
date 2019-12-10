@@ -6,10 +6,11 @@
 body{
 
     font-family: 'Muli', 'Verdana','sans-serif';
-    font-size: 14px;
-    margin: 20px;
+    font-size: 15px;
+    line-height: 27px;;
+    color: #251556;
+    margin:0;
 }
-
 #logoNav{
     margin: 30px;
 }
@@ -20,6 +21,13 @@ body{
     height: 100%;
 }
 
+div{
+    padding-bottom: 20px;
+}
+
+#profil{
+    padding-bottom: 0;
+}
 
 #leftPlanete{
     position: relative;
@@ -37,6 +45,8 @@ body{
 
 #iconeCaps{
     display: inline-block;
+    padding-bottom: 0;
+    
 }
 #userIcon{
     float: left;
@@ -53,9 +63,7 @@ body{
     margin: 30px;
 }
 
-div{
-    padding-bottom: 30px;
-}
+padding-bottom
 
 #codeCaps{
     margin: 10px;
@@ -64,6 +72,7 @@ div{
 
 #codeSubmit{
     background-color: #28E0AE;
+    color: #fff;
 }
 
 #receptionCaps,
@@ -88,7 +97,7 @@ div{
 }
 
 #parametres a{
-    color: #000;
+    color: #251556;
 }
 
 #parametres a:hover{
