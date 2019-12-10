@@ -47,6 +47,9 @@ div.col-sm-8 h1{
 /*Elements HTML*/
 /**************/
 h1.text-center{
+    font-family: 'Archivo', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
     text-decoration: underline;
     text-decoration-color: #28E0AE;
     padding: 20px;

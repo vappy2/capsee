@@ -90,6 +90,7 @@ div.container{
 }
 
 #envoiButton{
+    width: 185px;
     display: none;
     margin-left: 50px;
     background-color: #28E0AE;
@@ -97,6 +98,7 @@ div.container{
 }
 
 #recevoirButton{
+    width: 185px;
     display: none;
     margin-left: 50px;
     background-color: #FD4291;
